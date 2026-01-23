@@ -30,7 +30,7 @@ export default function SupportPage() {
               Questions about using Bloomy? Need help with a feature? We&apos;re happy to assist.
             </p>
             <a
-              href="mailto:support@bloomy.app"
+              href="mailto:support@bloomyapp.app"
               className="btn btn-primary"
               style={{ display: 'inline-flex' }}
             >
@@ -46,7 +46,7 @@ export default function SupportPage() {
               the issue.
             </p>
             <a
-              href="mailto:bugs@bloomy.app?subject=Bug Report"
+              href="mailto:bugs@bloomyapp.app?subject=Bug Report"
               className="btn btn-secondary"
               style={{ display: 'inline-flex' }}
             >
@@ -61,7 +61,7 @@ export default function SupportPage() {
               Have an idea to make Bloomy better? We love hearing from our users.
             </p>
             <a
-              href="mailto:feedback@bloomy.app?subject=Feedback"
+              href="mailto:feedback@bloomyapp.app?subject=Feedback"
               className="btn btn-secondary"
               style={{ display: 'inline-flex' }}
             >
@@ -76,7 +76,7 @@ export default function SupportPage() {
               Press, partnerships, or other business matters.
             </p>
             <a
-              href="mailto:hello@bloomy.app"
+              href="mailto:hello@bloomyapp.app"
               className="btn btn-secondary"
               style={{ display: 'inline-flex' }}
             >

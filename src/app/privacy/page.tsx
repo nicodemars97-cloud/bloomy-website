@@ -85,11 +85,35 @@ export default function PrivacyPage() {
         date.
       </p>
 
+      <h2>GDPR Rights (European Users)</h2>
+      <p>
+        If you are located in the European Economic Area (EEA), you have additional rights under
+        the General Data Protection Regulation (GDPR):
+      </p>
+      <ul>
+        <li><strong>Right of Access:</strong> You can request a copy of your personal data.</li>
+        <li><strong>Right to Rectification:</strong> You can request correction of inaccurate data.</li>
+        <li><strong>Right to Erasure:</strong> You can request deletion of your data (&quot;right to be forgotten&quot;).</li>
+        <li><strong>Right to Portability:</strong> You can request your data in a machine-readable format.</li>
+        <li><strong>Right to Object:</strong> You can object to processing of your data.</li>
+        <li><strong>Right to Withdraw Consent:</strong> You can withdraw consent at any time.</li>
+      </ul>
+      <p>
+        To exercise any of these rights, please contact us at the email address below. We will
+        respond to your request within 30 days.
+      </p>
+
+      <h2>Data Retention</h2>
+      <p>
+        Your data is stored locally on your device and is retained until you delete the app or
+        clear the app data. We do not retain any personal data on our servers.
+      </p>
+
       <h2>Contact Us</h2>
       <p>
         If you have any questions about this Privacy Policy, please contact us at:{' '}
-        <a href="mailto:privacy@bloomy.app" style={{ color: 'var(--sage-green)' }}>
-          privacy@bloomy.app
+        <a href="mailto:privacy@bloomyapp.app" style={{ color: 'var(--sage-green)' }}>
+          privacy@bloomyapp.app
         </a>
       </p>
     </div>
