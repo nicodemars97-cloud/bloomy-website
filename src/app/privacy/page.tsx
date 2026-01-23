@@ -112,8 +112,8 @@ export default function PrivacyPage() {
       <h2>Contact Us</h2>
       <p>
         If you have any questions about this Privacy Policy, please contact us at:{' '}
-        <a href="mailto:privacy@bloomyapp.app" style={{ color: 'var(--sage-green)' }}>
-          privacy@bloomyapp.app
+        <a href="mailto:support@bloomyapp.app" style={{ color: 'var(--sage-green)' }}>
+          support@bloomyapp.app
         </a>
       </p>
     </div>

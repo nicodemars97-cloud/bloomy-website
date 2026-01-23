@@ -111,8 +111,8 @@ export default function TermsPage() {
       <h2>11. Contact</h2>
       <p>
         For any questions about these Terms of Use, please contact us at:{' '}
-        <a href="mailto:contact@bloomyapp.app" style={{ color: 'var(--sage-green)' }}>
-          contact@bloomyapp.app
+        <a href="mailto:support@bloomyapp.app" style={{ color: 'var(--sage-green)' }}>
+          support@bloomyapp.app
         </a>
       </p>
     </div>
