@@ -9,80 +9,75 @@ export default function PrivacyPage() {
   return (
     <div className="legal-content">
       <h1>Privacy Policy</h1>
-      <p className="subtitle">Last updated: January 2025</p>
+      <p className="subtitle">Last updated: January 2026</p>
 
       <p>
-        At Bloomy, we believe your personal information belongs to you. This Privacy Policy
-        explains how we collect, use, and protect your data when you use our app.
+        Bloomy (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) is committed to protecting your privacy.
+        This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application.
       </p>
 
-      <h2>Information We Collect</h2>
+      <h2>Data We Collect</h2>
+
+      <h3>1. Device Identifiers</h3>
       <p>
-        Bloomy is designed with privacy in mind. We collect minimal data necessary to provide
-        you with a personalized experience:
+        We collect anonymous device identifiers to understand how users interact with the app and improve our service.
+        This data is not linked to your identity.
       </p>
-      <ul>
-        <li>
-          <strong>Account Information:</strong> Your name (optional) and preferences you set
-          within the app.
-        </li>
-        <li>
-          <strong>Usage Data:</strong> Basic analytics about how you use the app, such as which
-          features you use and your streak count. This data is stored locally on your device.
-        </li>
-        <li>
-          <strong>Device Information:</strong> Basic device information for app compatibility
-          and crash reporting.
-        </li>
-      </ul>
 
-      <h2>What We Don&apos;t Collect</h2>
-      <ul>
-        <li>We do not collect or store your location data.</li>
-        <li>We do not sell your personal information to third parties.</li>
-        <li>We do not track you across other apps or websites.</li>
-        <li>We do not use your data for targeted advertising.</li>
-      </ul>
-
-      <h2>Data Storage</h2>
+      <h3>2. Usage Data</h3>
       <p>
-        Your preferences and progress are stored locally on your device using Apple&apos;s
-        secure storage mechanisms. We do not have access to this data unless you explicitly
-        choose to share it with us for support purposes.
+        We collect anonymous analytics about how you use the app (screens viewed, features used, buttons tapped).
+        This helps us improve the user experience. This data is not linked to your identity.
+      </p>
+
+      <h3>3. Purchase History</h3>
+      <p>
+        If you subscribe to Bloomy Premium, we process your purchase through Apple&apos;s App Store.
+        We receive confirmation of your subscription status but never see your payment details.
+      </p>
+
+      <h3>4. Diagnostic Data</h3>
+      <p>
+        We collect crash reports and performance data to identify and fix bugs.
+        This data is not linked to your identity.
       </p>
 
       <h2>Third-Party Services</h2>
-      <p>We may use the following third-party services:</p>
+      <p>We use the following services:</p>
       <ul>
         <li>
-          <strong>Apple App Store:</strong> For app distribution and in-app purchases.
+          <strong>Amplitude:</strong> Analytics to understand app usage patterns
         </li>
         <li>
-          <strong>Analytics:</strong> Anonymous, aggregated analytics to improve the app
-          experience.
+          <strong>RevenueCat:</strong> Subscription management
         </li>
+        <li>
+          <strong>Firebase Crashlytics:</strong> Crash reporting and diagnostics
+        </li>
+      </ul>
+      <p>
+        These services may collect device identifiers and usage data as described in their respective privacy policies.
+      </p>
+
+      <h2>Data Storage</h2>
+      <p>
+        Your personal content (blooms you create, favorites, preferences) is stored locally on your device
+        using Apple&apos;s secure storage. We do not have access to this data.
+      </p>
+
+      <h2>What We Don&apos;t Do</h2>
+      <ul>
+        <li>We don&apos;t sell your data to third parties</li>
+        <li>We don&apos;t use your data for advertising</li>
+        <li>We don&apos;t track you across other apps or websites</li>
+        <li>We don&apos;t collect your name, email, or personal information</li>
+        <li>We don&apos;t access your photos, contacts, or location</li>
       </ul>
 
       <h2>Your Rights</h2>
-      <p>You have the right to:</p>
-      <ul>
-        <li>Access the personal data we hold about you.</li>
-        <li>Request deletion of your data.</li>
-        <li>Export your data in a portable format.</li>
-        <li>Opt out of analytics collection.</li>
-      </ul>
-
-      <h2>Children&apos;s Privacy</h2>
       <p>
-        Bloomy is not intended for children under 13 years of age. We do not knowingly collect
-        personal information from children under 13.
-      </p>
-
-      <h2>Changes to This Policy</h2>
-      <p>
-        We may update this Privacy Policy from time to time. We will notify you of any changes
-        by posting the new Privacy Policy on this page and updating the &quot;Last updated&quot;
-        date.
+        You can delete all your data at any time by uninstalling the app.
+        Since most data is stored locally on your device, uninstalling removes it completely.
       </p>
 
       <h2>GDPR Rights (European Users)</h2>
@@ -103,18 +98,27 @@ export default function PrivacyPage() {
         respond to your request within 30 days.
       </p>
 
-      <h2>Data Retention</h2>
+      <h2>Children&apos;s Privacy</h2>
       <p>
-        Your data is stored locally on your device and is retained until you delete the app or
-        clear the app data. We do not retain any personal data on our servers.
+        Bloomy is suitable for all ages (4+). We do not knowingly collect personal information from children.
+      </p>
+
+      <h2>Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. We will notify you of any changes
+        by posting the new policy on this page and updating the &quot;Last updated&quot; date.
       </p>
 
       <h2>Contact Us</h2>
       <p>
-        If you have any questions about this Privacy Policy, please contact us at:{' '}
+        If you have questions about this Privacy Policy, please contact us at:{' '}
         <a href="mailto:support@bloomyapp.app" style={{ color: 'var(--sage-green)' }}>
           support@bloomyapp.app
         </a>
+      </p>
+
+      <p style={{ marginTop: '3rem', fontSize: '0.9rem', color: '#666' }}>
+        © 2026 Bloomy. All rights reserved.
       </p>
     </div>
   )
