@@ -93,6 +93,26 @@ export default function SupportPage() {
 
           <div style={{ display: 'grid', gap: 24 }}>
             <FAQItem
+              question="How does Bloomy work?"
+              answer="Every day, Bloomy offers you an inspiring quote and a micro-action tailored to what you want to cultivate. It's your daily wellness ritual."
+            />
+            <FAQItem
+              question="What is a Bloom?"
+              answer="A Bloom is the type of content you receive: confidence, serenity, clarity... You can change it anytime in settings."
+            />
+            <FAQItem
+              question="How to hide a Bloom?"
+              answer="Tap the eye-slash icon at the top of the screen. The hidden Bloom will never be shown to you again."
+            />
+            <FAQItem
+              question="Is my data secure?"
+              answer="Yes. Your Blooms, favorites and preferences stay on your device. We only collect anonymous data to improve the app (usage stats, crashes). No personally identifiable information."
+            />
+            <FAQItem
+              question="What data do you collect?"
+              answer="We collect: anonymous device ID, usage statistics, crash data, and subscription confirmation. We never sell your data. See our Privacy Policy for full details."
+            />
+            <FAQItem
               question="How do I restore my purchases?"
               answer="Go to Settings in the app, then tap 'Restore Purchases'. This will restore any premium features you've previously purchased."
             />
@@ -103,10 +123,6 @@ export default function SupportPage() {
             <FAQItem
               question="How do I cancel my subscription?"
               answer="Subscriptions are managed through the App Store. Go to Settings > Apple ID > Subscriptions on your device to manage or cancel your subscription."
-            />
-            <FAQItem
-              question="Is my data private?"
-              answer="Absolutely. Your data is stored locally on your device. We don't have access to your personal information. See our Privacy Policy for more details."
             />
             <FAQItem
               question="What languages is Bloomy available in?"
