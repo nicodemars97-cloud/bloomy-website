@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "Q2VXK8J4JF.com.bloomy.Bloomy",
+        "paths": ["/tiktok-callback", "/tiktok-callback/", "/tiktok-callback/*"]
+      }
+    ]
+  }
+}
