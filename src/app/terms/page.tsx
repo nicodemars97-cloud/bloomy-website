@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Terms of Use - Bloomy',
-  description: 'Terms of Use for Bloomy app',
+  title: 'Terms of Use - Bloomy - Citation du jour',
+  description: 'Terms of Use for Bloomy - Citation du jour app',
 }
 
 export default function TermsPage() {
@@ -12,33 +12,33 @@ export default function TermsPage() {
       <p className="subtitle">Last updated: January 2026</p>
 
       <p>
-        Welcome to Bloomy. By downloading, accessing, or using the Bloomy mobile application
+        Welcome to Bloomy - Citation du jour. By downloading, accessing, or using the Bloomy - Citation du jour mobile application
         (&quot;App&quot;), you agree to be bound by these Terms of Use (&quot;Terms&quot;).
         Please read them carefully.
       </p>
 
       <h2>1. Acceptance of Terms</h2>
       <p>
-        By using Bloomy, you confirm that you have read, understood, and agree to these Terms.
+        By using Bloomy - Citation du jour, you confirm that you have read, understood, and agree to these Terms.
         If you do not agree, please do not use the App.
       </p>
 
       <h2>2. Description of Service</h2>
       <p>
-        Bloomy is a wellness application that provides daily inspirational quotes and micro-actions
+        Bloomy - Citation du jour is a wellness application that provides daily inspirational quotes and micro-actions
         to help you cultivate positive habits. The App offers both free and premium subscription features.
       </p>
 
       <h2>3. User Accounts</h2>
       <p>
-        Bloomy does not require account creation. Your preferences and data are stored locally
+        Bloomy - Citation du jour does not require account creation. Your preferences and data are stored locally
         on your device. You are responsible for maintaining the security of your device.
       </p>
 
       <h2>4. Subscriptions and Payments</h2>
       <h3>4.1 Bloomy Premium</h3>
       <p>
-        Bloomy offers premium features through auto-renewable subscriptions. Subscription options include:
+        Bloomy - Citation du jour offers premium features through auto-renewable subscriptions. Subscription options include:
       </p>
       <ul>
         <li>Weekly subscription</li>
@@ -79,8 +79,8 @@ export default function TermsPage() {
       <h2>6. Intellectual Property</h2>
       <p>
         All content in the App, including but not limited to text, graphics, logos, icons, images,
-        and software, is the property of Bloomy or its content suppliers and is protected by
-        international copyright laws. The compilation of all content is the exclusive property of Bloomy.
+        and software, is the property of Bloomy - Citation du jour or its content suppliers and is protected by
+        international copyright laws. The compilation of all content is the exclusive property of Bloomy - Citation du jour.
       </p>
 
       <h2>7. User-Generated Content</h2>
@@ -97,7 +97,7 @@ export default function TermsPage() {
         secure, or error-free.
       </p>
       <p>
-        <strong>Health Disclaimer:</strong> Bloomy is designed for general wellness purposes only.
+        <strong>Health Disclaimer:</strong> Bloomy - Citation du jour is designed for general wellness purposes only.
         The content is not intended to be a substitute for professional medical advice, diagnosis,
         or treatment. Always seek the advice of qualified health providers with any questions
         regarding a medical condition.
@@ -105,7 +105,7 @@ export default function TermsPage() {
 
       <h2>9. Limitation of Liability</h2>
       <p>
-        To the maximum extent permitted by law, Bloomy shall not be liable for any indirect,
+        To the maximum extent permitted by law, Bloomy - Citation du jour shall not be liable for any indirect,
         incidental, special, consequential, or punitive damages, or any loss of profits or revenues,
         whether incurred directly or indirectly, or any loss of data, use, goodwill, or other
         intangible losses resulting from your use of the App.
@@ -141,14 +141,14 @@ export default function TermsPage() {
 
       <h2>14. Apple-Specific Terms</h2>
       <p>
-        These Terms are between you and Bloomy only, not with Apple. Apple has no obligation
+        These Terms are between you and Bloomy - Citation du jour only, not with Apple. Apple has no obligation
         to furnish any maintenance and support services with respect to the App. Apple is not
         responsible for addressing any claims relating to the App. Apple and Apple&apos;s subsidiaries
         are third-party beneficiaries of these Terms.
       </p>
 
       <p style={{ marginTop: '3rem', fontSize: '0.9rem', color: '#666' }}>
-        © 2026 Bloomy. All rights reserved.
+        © 2026 Bloomy - Citation du jour. All rights reserved.
       </p>
     </div>
   )

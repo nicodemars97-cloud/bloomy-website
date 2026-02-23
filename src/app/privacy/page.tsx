@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy - Bloomy',
-  description: 'Privacy Policy for Bloomy app',
+  title: 'Privacy Policy - Bloomy - Citation du jour',
+  description: 'Privacy Policy for Bloomy - Citation du jour app',
 }
 
 export default function PrivacyPage() {
@@ -12,8 +12,8 @@ export default function PrivacyPage() {
       <p className="subtitle">Last updated: January 2026</p>
 
       <p>
-        Bloomy (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) is committed to protecting your privacy.
-        This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application.
+        Bloomy - Citation du jour (&quot;Bloomy&quot;, &quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) is committed to protecting your privacy.
+        This Privacy Policy explains how we collect, use, and safeguard your information when you use the Bloomy - Citation du jour mobile application (&quot;App&quot;).
       </p>
 
       <h2>Data We Collect</h2>
@@ -100,7 +100,7 @@ export default function PrivacyPage() {
 
       <h2>Children&apos;s Privacy</h2>
       <p>
-        Bloomy is suitable for all ages (4+). We do not knowingly collect personal information from children.
+        Bloomy - Citation du jour is suitable for all ages (4+). We do not knowingly collect personal information from children.
       </p>
 
       <h2>Changes to This Policy</h2>
@@ -118,7 +118,7 @@ export default function PrivacyPage() {
       </p>
 
       <p style={{ marginTop: '3rem', fontSize: '0.9rem', color: '#666' }}>
-        © 2026 Bloomy. All rights reserved.
+        © 2026 Bloomy - Citation du jour. All rights reserved.
       </p>
     </div>
   )
